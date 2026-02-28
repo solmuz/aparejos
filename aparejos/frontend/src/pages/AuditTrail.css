@@ -1,0 +1,15 @@
+.audit-trail-page {
+  padding: 2rem;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.filters input,
+.filters select {
+  padding: 0.75rem;
+}
